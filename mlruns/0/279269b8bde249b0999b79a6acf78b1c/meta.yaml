@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/Yamini Pujar/OneDrive/Desktop/mlops-mlflow-cicd/mlruns/0/279269b8bde249b0999b79a6acf78b1c/artifacts
+end_time: 1777229988865
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 279269b8bde249b0999b79a6acf78b1c
+run_name: handsome-foal-701
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777229973624
+status: 3
+tags: []
+user_id: Yamini Pujar

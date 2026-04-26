@@ -1,0 +1,10 @@
+artifact_location: file:C:/Users/Yamini Pujar/OneDrive/Desktop/mlops-mlflow-cicd/mlruns/0/models/m-22b50b0432b242ffbeb3dcbb4805925f/artifacts
+creation_timestamp: 1777229973872
+experiment_id: '0'
+last_updated_timestamp: 1777229988818
+model_id: m-22b50b0432b242ffbeb3dcbb4805925f
+model_type: null
+name: model
+source_run_id: 279269b8bde249b0999b79a6acf78b1c
+status: 2
+status_message: null

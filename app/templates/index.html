@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iris Prediction App</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #f2f2f2;
+        }
+        input {
+            padding: 10px;
+            margin: 5px;
+            width: 200px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .box {
+            background: white;
+            padding: 30px;
+            display: inline-block;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+    <h2>Iris Flower Prediction 🌸</h2>
+
+    <form action="/predict" method="post">
+        <input type="text" name="f1" placeholder="Sepal Length" required><br>
+        <input type="text" name="f2" placeholder="Sepal Width" required><br>
+        <input type="text" name="f3" placeholder="Petal Length" required><br>
+        <input type="text" name="f4" placeholder="Petal Width" required><br><br>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction is not none %}
+        <h3 style="color: red;">{{ prediction }}</h3>
+    {% endif %}
+</div>
+
+</body>
+</html>

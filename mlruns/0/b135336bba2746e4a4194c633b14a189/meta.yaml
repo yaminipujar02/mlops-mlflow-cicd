@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/Yamini Pujar/OneDrive/Desktop/mlops-mlflow-cicd/mlruns/0/b135336bba2746e4a4194c633b14a189/artifacts
+end_time: 1777222254323
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b135336bba2746e4a4194c633b14a189
+run_name: fearless-fly-967
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777222222281
+status: 3
+tags: []
+user_id: Yamini Pujar
