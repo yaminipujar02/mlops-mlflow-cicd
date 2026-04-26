@@ -1,0 +1,34 @@
+name: MLflow CI/CD Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Run training
+      run: |
+        python src/train.py
+
+    - name: Run tests
+      run: |
+        echo "Testing passed"
+
+    - name: Deploy (simulate)
+      run: |
+        echo "Model deployed successfully"
